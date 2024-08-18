@@ -85,6 +85,17 @@
     .features-content {
         text-align: center;
     }
+
+
+    .some-content {
+        text-align: center;
+
+    }
+
+    .some-img {
+        gap: 20px;
+        margin: 0px 30px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -127,7 +138,17 @@
     }
 
 
+    /* Some Fact Section */
 
+    .some-content {
+        text-align: center;
+    }
+
+    .some-img {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
 
 
