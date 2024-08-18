@@ -96,6 +96,13 @@
         gap: 20px;
         margin: 0px 30px;
     }
+
+    .sponspors-logo {
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+        gap: 20px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -153,6 +160,17 @@
 
 
 
+    /* sponspors section */
+
+
+
+
+    .sponspors-logo {
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+        gap: 20px;
+    }
 
 
 
