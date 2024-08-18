@@ -10,8 +10,18 @@
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1199px;
     margin: 0 auto;
+}
+
+.primary-btn {
+    background: #FF900E;
+    padding: 15px 25px;
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
 }
 
 
@@ -71,16 +81,34 @@ nav {
     line-height: 25px;
 }
 
-.banner .banner-btn {
-    background: #FF900E;
-    padding: 15px 25px;
-    border: 0px;
-    border-radius: 6px;
-    color: white;
-    font-size: 15px;
-    margin-bottom: 50px;
-}
-
 .banner-img img {
     width: 100%;
+}
+
+
+/* features section */
+
+.features {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 70px 0px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.features-content h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.features-content p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
 }

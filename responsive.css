@@ -1,0 +1,147 @@
+/*Responsive CSS Start*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav {
+        padding: 0px 20px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .features-content {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    nav {
+        padding: 0px 20px;
+    }
+
+    .logo-title {
+        font-size: 22px;
+        padding-bottom: 0px;
+    }
+
+    .nav-items li {
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #424242;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner p {
+        padding: 20px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .features-content {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo-title {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .nav-items li {
+        margin-left: 20px;
+    }
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+    .banner p {
+        padding: 0px 20px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+
+    .features-img {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .features-content {
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo-title {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .nav-items li {
+        margin-left: 20px;
+    }
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+    .banner p {
+        padding: 0px 20px;
+    }
+
+
+
+    .features {
+        flex-direction: column;
+    }
+
+
+    .features-img {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .features-content {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*Responsive CSS End*/
