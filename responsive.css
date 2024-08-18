@@ -103,6 +103,22 @@
         margin: 0 auto;
         gap: 20px;
     }
+
+    .features-enjoy {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 120px;
+    }
+
+    .features-enjoy-img-content {
+        display: block;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .features-enjoy-img-content h3 {
+        text-align: center;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -175,7 +191,21 @@
 
 
 
+    .features-enjoy {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 120px;
+    }
 
+    .features-enjoy-img-content {
+        display: block;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .features-enjoy-img-content h3 {
+        text-align: center;
+    }
 
 
 

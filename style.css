@@ -175,3 +175,64 @@ footer {
     background-color: #FFF4E7;
     padding: 30px 0px;
 }
+
+
+
+
+.features-enjoy {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 120px;
+}
+
+.features-enjoy-img img {
+    width: 100%;
+}
+
+.features-enjoy-heading {
+    padding-bottom: 30px;
+}
+
+.features-enjoy-heading h2 {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features-enjoy-heading p {
+    padding: 15px 0px;
+}
+
+.features-enjoy-card-content {
+    padding: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 20px 0px;
+}
+
+.features-enjoy-card-content h5 {
+    font-size: 20px;
+}
+
+.features-enjoy-card-content p {
+    padding-top: 15px;
+}
+
+
+.features-enjoy-img-content {
+    background: orange;
+    display: inline-block;
+    padding: 30px 50px;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+}
+
+.features-enjoy-img-content h3 {
+    font-size: 45px;
+}
+
+.features-enjoy-img-content p {
+    text-align: center;
+    font-size: 22px;
+}
